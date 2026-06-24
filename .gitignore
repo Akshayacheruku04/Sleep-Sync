@@ -1,0 +1,37 @@
+# Dependency Directories
+**/node_modules/
+
+# Production builds
+**/dist/
+**/build/
+
+# Local Environment Variables (CRITICAL: Contains MongoDB URIs and API keys)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs and databases
+**/*.log
+**/*.sqlite
+
+# Python cache and environments
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/env/
+**/venv/
+**/.env/
+**/pip-log.txt
+
+# Editor / System configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
